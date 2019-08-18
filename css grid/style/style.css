@@ -5,6 +5,33 @@ html {
   color: #333;
 }
 
+nav {
+  color: white;
+  font-weight: bolder;
+}
+
+nav div a {
+  margin-right: 50px;
+  color: white;
+  font-weight: bold;
+  font-size-adjust: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 2500;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bdc3c7), to(#2c3e50));
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-inline a:hover {
+  color: lightblue;
+}
+
+
 body {
   background-color: #ccc;
   margin: 30px;
@@ -23,7 +50,8 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
-      grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b';
+      grid-template-areas: 'showcase showcase top-box-a'
+ 'showcase showcase top-box-b';
 }
 
 .showcase {
@@ -115,7 +143,8 @@ body {
 /*media*/
 @media (max-width: 700px) {
   .top-container {
-        grid-template-areas: 'showcase showcase' 'top-box-a top-box-b';
+        grid-template-areas: 'showcase showcase'
+ 'top-box-a top-box-b';
   }
   .showcase {
     -ms-grid-row: 1;
