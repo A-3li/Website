@@ -6,11 +6,6 @@ html {
 }
 
 
-.form-inline a:hover {
-  color: lightblue;
-}
-
-
 body {
   background-color: #ccc;
   margin: 30px;
