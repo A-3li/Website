@@ -1,4 +1,19 @@
+nav {
+  color: white;
+  font-weight: bolder;
+}
 
+nav div a {
+  margin-right: 50px;
+  color: white;
+  font-weight: bold;
+  font-size-adjust: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-inline a:hover {
+  color: lightblue;
+}
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
