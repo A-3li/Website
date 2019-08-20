@@ -139,7 +139,7 @@ section {
     -ms-grid-column-span: 2;
     grid-area: showcase;
     min-height: 400px;
-    background: url(../programming.jpg);
+    background: url(../../img/programming.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
