@@ -11,6 +11,10 @@ nav div a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.form-inline a:hover {
+  color: lightblue;
+}
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 2500;
@@ -18,10 +22,6 @@ h1 {
   background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.form-inline a:hover {
-  color: lightblue;
 }
 
 * {

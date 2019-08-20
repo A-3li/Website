@@ -1,3 +1,20 @@
+nav {
+  color: white;
+  font-weight: bolder;
+}
+
+nav div a {
+  margin-right: 50px;
+  color: white;
+  font-weight: bold;
+  font-size-adjust: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-inline a:hover {
+  color: lightblue;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,11 +22,9 @@ html {
   color: #333;
 }
 
-
-body {
+section {
+  margin: 0;
   background-color: #ccc;
-  margin: 30px;
-  line-height: 1.4;
 }
 
 .btn {
@@ -24,8 +39,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
-      grid-template-areas: 'showcase showcase top-box-a'
- 'showcase showcase top-box-b';
+      grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b';
 }
 
 .showcase {
@@ -35,7 +49,7 @@ body {
   -ms-grid-column-span: 2;
   grid-area: showcase;
   min-height: 400px;
-  background: url(../programming.jpg);
+  background: url(../../img/programming.jpg);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -117,8 +131,7 @@ body {
 /*media*/
 @media (max-width: 700px) {
   .top-container {
-        grid-template-areas: 'showcase showcase'
- 'top-box-a top-box-b';
+        grid-template-areas: 'showcase showcase' 'top-box-a top-box-b';
   }
   .showcase {
     -ms-grid-row: 1;

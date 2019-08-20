@@ -1,8 +1,4 @@
-$primary:#ddd;
-$dark:#333;
-$light:#fff;
-$shadow:0 1px 5px rgba(104,104, 104, 0.8);
-
+@import '../../style/style';
 
 html{
     box-sizing: border-box;
@@ -10,12 +6,12 @@ html{
     color:$dark;
 }
 
-body{
-background-color: #ccc;
-margin: 30px;
-line-height: 1.4;
 
+section{
+    margin: 0;
+    background-color: #ccc;
 }
+ 
 
 .btn{
     background: $dark;
@@ -36,7 +32,7 @@ line-height: 1.4;
 .showcase{
     grid-area: showcase;
     min-height: 400px;
-    background: url(../programming.jpg);
+    background: url(../../img/programming.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
