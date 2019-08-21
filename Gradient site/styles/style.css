@@ -1,16 +1,7 @@
 nav {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#96fbc4), to(#f9f586));
-  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
-  color: black;
+  background-color: #6C757D;
+  color: rgba(255, 255, 255, 0.897);
   font-weight: bolder;
-}
-
-nav div a {
-  margin-right: 50px;
-  color: black;
-  font-weight: bold;
-  font-size-adjust: 4px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 * {
