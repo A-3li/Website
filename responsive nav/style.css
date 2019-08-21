@@ -83,7 +83,7 @@ nav {
   .nav-links {
     opacity: 0;
     position: absolute;
-    right: -50px;
+    right: 50px;
     height: 92vh;
     top: 8vh;
     background-color: #6C757D;
