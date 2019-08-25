@@ -1,0 +1,22 @@
+   
+<div class="back" align="center" style="height:180px">
+<p> Learn </p>
+</div>
+
+<div class="front" align="center" style="height:200px">
+<p> Hard Code</p>
+</div>
+
+<div class="three" style="height: 200px" >
+ <!--<img  class="sm" src="programming.jpg" /> -->
+  <p class="test">  Develop !! </p>
+</div>
+
+<div class="span" >
+<span class="s">Contact details</span>
+<br>
+<span> Email: </span>
+<span> XYZ@xyz.com </span>
+</div>
+
+<script src="../responsive nav/nav.js"></script>

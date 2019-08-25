@@ -1,0 +1,52 @@
+
+  <div class="jumbotron" style="margin-bottom:0;">
+    <div style="margin: 0 25px">
+      <h1 class="display-4" > Adnan Ali</h1>
+      <p class="lead"> Software Engineer</p>
+      <hr class="my-4">
+      <p>Al Ain University of Sciene and technology (2016-2020)</p>
+      <a class="btn btn-secondary btn-sm" href="#" role="button"> About Me </a>
+    </div>
+  </div>
+
+  
+    <div class="grid-container" style="background-color:#E9ECEF;margin: -25px 0px">
+      <div >
+        <div class="card grid-item">
+          <div class="card-body">
+            <h3 class="card-title">Web Development</h3>
+            <hr class="my-1">
+            <p class="card-text"> HTML, JavaScript, jQuery, PHP, SQL and Angular</p>
+          </div>
+        </div>
+      </div>
+      <div >
+        <div class="card grid-item">
+          <div class="card-body">
+            <h3 class="card-title">Software Developement</h3>
+            <hr class="my-1">
+            <p class="card-text"> Java, C++, C#</p>
+          </div>
+        </div>
+      </div>
+      <div >
+        <div class="card grid-item">
+          <div class="card-body">
+            <h3 class="card-title">Web Design</h3>
+            <hr class="my-1">
+            <p class="card-text"> CSS, SCSS, Responsive Web Design, Bootstrap, Animate.js, Google Font </p>
+          </div>
+        </div>
+      </div>
+      <div >
+          <div class="card grid-item">
+            <div class="card-body">
+              <h3 class="card-title">Game Development</h3>
+              <hr class="my-1">
+              <p class="card-text">Unity 3D (VR App) </p>
+
+            </div>
+          </div>
+        </div>
+  </div>
+
