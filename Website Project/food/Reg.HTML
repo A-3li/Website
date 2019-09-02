@@ -1,0 +1,83 @@
+﻿<style>
+
+.p {    text-align: center;}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+
+</style>
+
+
+<div>
+
+    <link href="../css/style.css" type="text/css" rel="stylesheet" />
+        <div class="col-xs-12 menuBgColor">
+         
+            <div>
+                <ul>
+                    <li><a href="../index.html" class="redActive">Home</a></li>
+                    
+                </ul>
+            </div>
+
+
+<img class="center" src="../img/welcome.png" alt="File not supported" />
+
+
+<div id="registration"></div>
+<form id="contact_form"  method="POST"  action="onsubmit">
+  <div class="p">
+    <label for="name">Your Name:</label><br />
+    <input type="text"id="uname" pattern="[a-z]{4,8} name="name"   value="" size="30" placeholder="Lower case, all one word" required /><br />
+    
+ <br />
+  </div>
+
+  <div class="p">
+    <label class="required" for="phone">Your Phone number:</label><br />
+    <input id="phone" class="input" name="phone" type="text" pattern="^\d{4}-\d{3}-\d{4}$" value="" size="30" placeholder="05xx-xxx-xxx"   minlength="10" maxlength="10"/><br />
+  <br />
+  </div>
+
+  <div class="p" >
+    <label class="required" for="address">Your Address:</label><br />
+    <input id="address" class="input" name="address" type="text" value="" size="50" placeholder="Street #, City , Country"><br />
+    <br />
+  </div>
+    
+ <div class="p">
+    <label class="required" for="card">Your Credit Card Number:</label><br />
+    <input id="card" class="input" name="card" type="text" value="" size="30" placeholder="XXXX-XXXX-XXXX-XXXX" pattern="^\d{4}-\d{4}-\d{4}-\d{4}$"  minlength="20" maxlength="20"/><br />
+   <br />
+  </div>
+ <p> </p>
+ 
+  <div class="p">
+    <input type="button" value="Submit Information" onclick="fun();"  >
+    <input id="reset_button" type="reset" value="Reset Informtaion"  />
+   </div>
+
+
+</form>
+
+<script>
+     function fun()
+{
+var x=document.getElementById("uname").value;
+var y=document.getElementById("phone").value;
+var z=document.getElementById("address").value;
+var a=document.getElementById("card").value;
+
+alert("NAME:"+x+"\n"+"PHONE NUMBER:"+y+"\n"+"ADDRESS:"+z+"\n"+"CARD NUMBER:"+a);
+document.forms["contact_form"].reset();
+
+}
+
+
+
+
+
+</script>

@@ -1,0 +1,405 @@
+﻿html, body {
+    width: 99.4%;
+}
+
+body {
+    background-color: #f7f9fa;
+    height: 100vh;
+}
+
+/* card */
+.Card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 237px;
+    border: 1px solid;
+    border-radius: 7px;
+    display: table;
+    margin: 10px auto;
+}
+
+/* color of the cards */
+.redCard {
+    background-color: #dd4e42;
+    border-color: #dd4e42;
+}
+
+.orangeCard {
+    background-color: #ef6030;
+    border-color: #ef6030;
+}
+
+.yellowCard {
+    background-color: #ffc113;
+    border-color: #ffc113;
+}
+
+.greenCard {
+    background-color: #1ba261;
+    border-color: #1ba261;
+}
+
+.limeGreenCard {
+    background-color: #8fc550;
+    border-color: #8fc550;
+}
+
+.blueCard {
+    background-color: #4687f4;
+    border-color: #4687f4;
+}
+
+.purpleCard {
+    background-color: #b61f62;
+    border-color: #b61f62;
+}
+
+.brownCard {
+    background-color: #4d2b21;
+    border-color: #4d2b21;
+}
+
+.pinkCard {
+    background-color: #ff3366;
+    border-color: #ff3366;
+}
+
+/* color of the Buttons */
+.redButton {
+    background-color: #dd4e42;
+}
+
+.orangeButton {
+    background-color: #ef6030;
+}
+
+.yellowButton {
+    background-color: #ffc113;
+}
+
+.greenButton {
+    background-color: #1ba261;
+}
+
+.limeGreenButton {
+    background-color: #8fc550;
+}
+
+.blueButton {
+    background-color: #4687f4;
+}
+
+.purpleButton {
+    background-color: #b61f62;
+}
+
+.brownButton {
+    background-color: #4d2b21;
+}
+
+.pinkButton {
+    background-color: #ff3366;
+}
+
+/* colored Background */
+.redBackground {
+    background-color: #d1372a;
+}
+
+.orangeBackground {
+    background-color: #e65c30;
+}
+
+.yellowBackground {
+    background-color: #ff9f12;
+}
+
+.greenBackground {
+    background-color: #188b54;
+}
+
+.limeGreenBackground {
+    background-color: #69a32f;
+}
+
+.blueBackground {
+    background-color: #396bd6;
+}
+
+.purpleBackground {
+    background-color: #9c124f;
+}
+
+.brownBackground {
+    background-color: #4d2317;
+}
+
+.pinkBackground {
+    background-color: #e42e5b;
+}
+
+/* quantity text & button */
+button.quantity, h4.quantity {
+    display: inline;
+    position: relative;
+    color: #ffffff;
+}
+
+/* quantity button */
+button.quantity {
+    width: 25px;
+    height: 21px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px #ffffff solid;
+    margin-top: 9px;
+    padding-bottom: 20px;
+   
+}
+
+/* quantity text */
+h4.quantity {
+    /* margin: 0px 15px 0px 15px; */
+    font-family: comfortaa_thin;
+    font-weight: bold;
+    width: 60px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* card Text */
+.cardText {
+    color: #FFFFFF;
+    font-family: comfortaa_thin;
+}
+
+/* div container */
+.divContainer {
+    display: inline-block;
+    width: 300px;
+    margin-top: 1px;
+    height: 37px;
+}
+
+/* div text */
+.divTitle, .divQuantity {
+    width: 202px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* div price */
+.divPrice, .divRemove {
+    margin-left: -3px;
+    width: 97px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* div Counter */
+.divCounter {
+    width: 60px;
+    position: relative;
+    display: inline-table;
+}
+
+/* food Picture */
+.foodPicture {
+    width: 300px;
+    height: 157px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: comfortaa_thin;
+    src: url(../font/comfortaa_thin.ttf);
+}
+
+@font-face {
+    font-family: comfortaa_bold;
+    src: url(../font/comfortaa_bold.ttf);
+}
+
+@font-face {
+    font-family: comfortaa_regular;
+    src: url(../font/comfortaa_regular.ttf);
+}
+
+
+/* style for the menu */
+
+/* unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+/* list item */
+li {
+    float: left;
+    width: 16.6666667%;
+}
+
+/* standard color for all a states */
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* change bg when mouse on */
+li a:hover {
+    background-color: #d7d7d7;
+    border-bottom: 3px #d7d7d7 solid;
+}
+
+/* properties of a */
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+    /* active category */
+    li a.active {
+        background-color: #d7d7d7 !important;
+    }
+
+    /* red selected and hovered (mouse on top) */
+    li a.redActive {
+        border-bottom: 3px #dd4e42 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.redActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* orange selected and hovered (mouse on top) */
+    li a.orangeActive {
+        border-bottom: 3px #eb5330 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.orangeActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* yellow selected and hovered (mouse on top) */
+    li a.yellowActive {
+        border-bottom: 3px #ffc113 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.yellowActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* light green selected and hovered (mouse on top) */
+    li a.lightGreenActive {
+        border-bottom: 3px #8fc550 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.lightGreenActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* blue selected and hovered (mouse on top) */
+    li a.blueActive {
+        border-bottom: 3px #4687f4 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.blueActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* green selected and hovered (mouse on top) */
+    li a.greenActive {
+        border-bottom: 3px #1ba261 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.greenActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* purple selected and hovered (mouse on top) */
+    li a.purpleActive {
+        border-bottom: 3px #b61f62 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.purpleActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* brown selected and hovered (mouse on top) */
+    li a.brownActive {
+        border-bottom: 3px #4d2b21 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.brownActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* pink selected and hovered (mouse on top) */
+    li a.pinkActive {
+        border-bottom: 3px #ff3366 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.pinkActive:hover {
+            background-color: #d7d7d7;
+        }
+
+    /* black selected and hovered (mouse on top) */
+    li a.blackActive {
+        border-bottom: 3px #333333 solid;
+        background-color: #e8e8e8;
+    }
+
+        li a.blackActive:hover {
+            background-color: #d7d7d7;
+        }
+
+/* back button (go to index) */
+.btnBack, .btnBack:hover {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: #1D6DF3;
+}
+
+/* from index page (style for logos) */
+.logo {
+    width: 300px;
+    height: 90px;
+}
+
+.service_logo {
+    border: 3px transparent solid;
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 180px;
+    height: 180px;
+}
+
+    .service_logo:hover {
+        border-color: #045EBF;
+    }

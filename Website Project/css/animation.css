@@ -1,0 +1,119 @@
+﻿/* make the text appear */
+@keyframes appearDisappear1 {
+    0% {opacity: 0; letter-spacing: normal;}
+    11.6% {opacity: 1; letter-spacing: normal;}
+	69.6% {opacity: 1; letter-spacing: normal;}
+	81.2% {opacity: 0; letter-spacing: 5px;}
+	100% {opacity: 0; letter-spacing: 5px;}
+}
+
+/* The element to apply the animation to */
+.animate1{
+    animation-name: appearDisappear1;
+    animation-duration: 17s;
+}
+
+/* make the text appear */
+@keyframes appearDisappear2 {
+    0% {opacity: 0; letter-spacing: normal;}
+    5.8% {opacity: 0; letter-spacing: normal;}
+    17.4% {opacity: 1; letter-spacing: normal;}
+	75.4% {opacity: 1; letter-spacing: normal;}
+	87% {opacity: 0; letter-spacing: 5px;}
+	100% {opacity: 0; letter-spacing: 5px;}
+}
+
+/* The element to apply the animation to */
+.animate2{
+    animation-name: appearDisappear2;
+    animation-duration: 17s;
+}
+
+/* make the text appear */
+@keyframes appearDisappear3 {
+    0% {opacity: 0; letter-spacing: normal;}
+    11.6% {opacity: 0; letter-spacing: normal;}
+    23.2% {opacity: 1; letter-spacing: normal;}
+	81.2% {opacity: 1; letter-spacing: normal;}
+	92.8% {opacity: 0; letter-spacing: 5px;}
+	100% {opacity: 0; letter-spacing: 5px;}
+
+}
+
+/* The element to apply the animation to */
+.animate3{
+    animation-name: appearDisappear3;
+    animation-duration: 17s;
+}
+
+/* make the text appear */
+@keyframes appearDisappear4 {
+    0% {opacity: 0; letter-spacing: normal;}
+    17.4% {opacity: 0; letter-spacing: normal;}
+    29% {opacity: 1; letter-spacing: normal;}
+	87% {opacity: 1; letter-spacing: normal;}
+	98.6% {opacity: 0; letter-spacing: 5px;}
+	100% {opacity: 0; letter-spacing: 5px;}
+}
+
+/* The element to apply the animation to */
+.animate4{
+    animation-name: appearDisappear4;
+    animation-duration: 17s;
+}
+
+
+/* text animation */
+@keyframes animatedBox1 {
+    0% {visibility: visible;}
+    99.99999% {visibility: visible;}
+	100% {visibility: hidden;}
+}
+.animatedBox1
+{
+    animation-name: animatedBox1;
+    animation-duration: 17s;
+	margin-top: 13%;
+	visibility: hidden;
+}
+
+/* index page content to be in the middle and show them after the animation */
+@keyframes aniboxMiddle {
+    0% {visibility: hidden;}
+    99.99999% {visibility: hidden;}
+	100% {visibility: visible;}
+}
+.boxMiddle
+{
+    animation-name: aniboxMiddle;
+    animation-duration: 17s;
+	position: relative;
+	margin-top: -300px;
+	visibility: visible;
+}
+
+/* white color for h1 (animated text in index page) */
+.indexBody h1
+{
+	color: white;
+}
+
+/* body style (background color) for index page with animation */
+@keyframes bodyBgColor {
+    0% {background-color: rgb(0, 120, 215);}
+    99.99999% {background-color: rgb(0, 120, 215);}
+	100% {background-color: #FFFFFF;}
+}
+	.indexBody{
+	    animation-name: bodyBgColor;
+	    animation-duration: 17s;
+	    background-color: #FFFFFF;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-position: center;
+	    text-align: center; 
+	    vertical-align: middle;
+	    height: 100%;
+	}
+	
+	
