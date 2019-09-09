@@ -1,2 +1,5 @@
 just a tets
-
+git clone (url)
+git add (file names)
+git commit -m "(committed message)
+git push -u origin master
